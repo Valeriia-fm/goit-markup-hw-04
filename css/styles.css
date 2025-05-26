@@ -455,6 +455,12 @@ img {
 /*-----------OUR PORTFOLIO----------*/
 
 /*-------FOOTER----------*/
+
+.soc-item-foot:hover,
+.soc-item-foot:focus {
+  background-color: #31d0aa;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -488,8 +494,6 @@ img {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
-  margin-right: 120px;
-  gap: 120px;
   flex-wrap: wrap;
 }
 
@@ -518,6 +522,7 @@ img {
 
 .container-ft {
   margin-left: 156px;
+  margin-right: 120px;
 }
 
 .soc-item-foot {
@@ -529,13 +534,6 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.soc-item-foot:hover {
-  background-color: #31d0aa;
-}
-.soc-item-foot:focus {
-  background-color: #31d0aa;
 }
 
 /*--------FOOTER------*/
