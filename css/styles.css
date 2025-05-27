@@ -483,12 +483,15 @@ img {
 
 .footer-container {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
   flex-wrap: wrap;
+  max-width: 100%;
+  height: 312px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-content: center;
 }
 
 .icon-list-ft {
@@ -515,7 +518,7 @@ img {
 }
 
 .container-ft {
-  margin-left: 153px;
+  padding-left: 156px;
   margin-right: 120px;
   max-width: 100%;
 }
