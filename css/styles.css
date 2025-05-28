@@ -493,6 +493,15 @@ img {
   align-content: center;
 }
 
+.container-ft {
+  margin-left: 156px;
+  margin-right: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
 .icon-list-ft {
   display: flex;
   flex-direction: row;
@@ -508,20 +517,12 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   position: relative;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .foot-icons {
   display: flex;
   flex-direction: column;
-}
-
-.container-ft {
-  margin-left: 156px;
-  margin-right: 120px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  max-width: 100%;
 }
 
 .soc-item-foot {
